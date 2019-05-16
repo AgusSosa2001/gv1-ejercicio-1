@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mis Hobbies</h1>
+
+    <img src="Hobbies.jpg" alt="Hobbie">
+
+    <video controls width="1024">
+
+        <source src="Perfect.mp4"
+                type="video/mp4">
+    
+        Lo siento, no esta disponible para su navegador
+    </video>
+
+    <audio src="Uno.mp3" preload="auto" controls></audio>
+
+    <h1 class="espacio">Formulario</h1>
+
+    <form action="">
+
+        <div>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" class="nom" required maxlength="15" />
+        </div>
+
+        <div>
+            <label for="Apellido">Apellido:</label>
+            <input type="text" class="ape" required maxlength="15"/>
+        </div>
+
+        <div>
+            <label for="Email">Correo Electronico:</label>
+            <input type="email" class="email" required maxlength="30" />
+        </div>
+
+        <div>
+            <label for="Fecha Nacimiento">Fecha de Nacimiento</label>
+            <input type="date" class="fecha" required />
+        </div> 
+
+        <div>
+            <label for="Deporte">Deporte Favorito</label>
+            <select name="Deportes" class="lista" required>
+                <option value="1">Tenis</option>
+                <option value="2">Footbol</option>
+                <option value="3">Baloncesto</option>
+                <option value="4">Natacion</option>
+                <option value="5">Surf</option>
+                <option value="6">Voley bol</option>
+                <option value="7">Snowboard</option>
+                <option value="8">Equitacion</option>
+                <option value="9">Handball</option>
+                <option value="10">Atletismo</option>
+            </select>
+        </div>
+        <div>
+            <label for="Biografia">Biografia breve</label>
+            <textarea class="bio" maxlength="450"></textarea>
+        </div>
+
+        <input type="button" value="Enviar">
+
+        <input type="reset">
+
+    </form>
+
+
+
+</body>
+</html>

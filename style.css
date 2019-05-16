@@ -1,0 +1,41 @@
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+video{
+    float: right;
+}
+
+.espacio{
+    text-align: center;
+    margin-top: 280px;
+}
+
+form{
+   margin: 0 250px;
+   padding: 1em;
+   text-align: center;
+   border: 5px solid firebrick;
+}
+
+div{
+    margin: 0 250px;
+}
+
+form div + div{
+    margin-top: 25px;
+}
+
+label, select{
+    width: auto;
+    display: inline-block;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid firebrick;
+}
